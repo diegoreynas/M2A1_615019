@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mis 3 Peliculas Favoritas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+            body{
+                margin: 40px;
+                font-size: 18px;
+                font-family: "Montserrat", sans-serif;
+                color: white;
+                background-color: rgb(25, 24, 24);
+            }
+            .peliculas{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 20px;
+                padding: 0;
+                list-style: none;
+                align-self: center;
+            }
+            .peliculas li{
+                padding: 15px;
+                text-align: center;
+            }
+            .peliculas img{
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+            }
+            button{
+                margin-top: 10px;
+                padding: 12px 16px;
+                border: none;
+                border-radius: 10px;
+                background: #432414;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                font-family: "Montserrat", sans-serif;
+                transition: all 0.5s ease;
+            }
+            button:hover{
+                background: #723507;
+                transform: scale(1.05);
+            }
+            button a{
+                color: white;
+                text-decoration: none;
+            }
+            hr{
+                border: 1.5px solid;
+                border-radius: 1opx;
+            }
+        </style>
+        <h1>Mis 3 peliculas favoritas</h1>
+        <hr>
+        <ol class="peliculas">
+            <li>
+                <h2>Interestellar</h2>
+                <p>Un grupo de exploradores y scientificos descubren un hoyo de gusano en el espacio que sobre pasa los limites en el espacio humano para recorrer grandes distancias en peculiares distorsiones del tiempo.</p>
+                <img src="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Póster de Interestellar">
+                <button>
+                    <a href="https://youtu.be/2LqzF5WauAw?si=lyJ2T4UGzEasrhV3" target="_blank">Ver Tráiler</a>
+                </button>
+            </li>
+            <li>
+                <h2>Oppenheimer</h2>
+                <p>Una dramatización de la historia de vida de J. Robert Oppenheimer, el físico pionero del desarrollo de la ciencia detrás de las bombas atómicas que acabaron con la Segunda Guerra Mundial.</p>
+                <img src="https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Póster de Oppenheimer">
+                <button>
+                    <a href="https://youtu.be/bK6ldnjE3Y0?si=UMqNtkrGD2UfpjL3" target="_blank">Ver Tráiler</a>
+                </button>
+            </li>
+            <li>
+                <h2>Star Wars: Episode III - Revenge of the Sith</h2>
+                <p>Anakin debe escoger un bando de la fuerza. El senado galáctico descubre el oscuro secreto del emperador Palpatine, quien busca poder ilimitado.</p>
+                <img src="https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_.jpg" alt="Póster de Star Wars: Episode III - Revenge of the Sith">
+                <button>
+                    <a href="https://youtu.be/5UnjrG_N8hU?si=cbYdtAi6UNasbZDO" target="_blank">Ver Tráiler</a>
+                </button>
+            </li>
+        </ol>
+    </body>
+</html>
